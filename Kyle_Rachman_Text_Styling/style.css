@@ -1,0 +1,26 @@
+h1{
+    text-align: left;
+    font-family: sans-serif;
+    color:white;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    background-color: #5f3694;
+}
+
+h3{
+    text-align: right;
+    text-decoration: underline;
+    font-family: cursive;
+    background-color: #a7c4f4;
+}
+
+.cloud{
+    color:#75fbfd;
+}
