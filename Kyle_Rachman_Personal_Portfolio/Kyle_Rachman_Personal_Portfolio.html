@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <style>
+        table {
+        border: 2px solid #000000;
+        }
+        th {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+            border: 2px solid #000000;
+        }
+        td {
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #000000;
+        }
+        .formfield {
+            display: flex;
+            align-items:flex-start;
+        }
+    </style>
+
+</head>
+<body>
+    <div> <!-- Name and Profile Picture -->
+        <h1><u> Kyle Rachman </u></h1>
+        <img src = "Kyle-Rachman-13_Original.jpg" alt = "profile_pic" width = "75" height = "105">
+    </div>
+    <div> <!-- Links -->
+        <p>
+            <img style = "vertical-align:middle;" src = "GitHub-Mark.png" alt = "github" width = "35" height = "35">
+            <a href = "https://github.com/Kyle-Rachman">My Github</a> &nbsp;
+            <img style = "vertical-align:middle;" src = "linkedin-logo.png" alt = "linkedin" width = "25" height = "25">
+            <a href = "https://www.linkedin.com/in/kyle-rachman/">My LinkedIn</a> &nbsp;
+            <img style = "vertical-align:middle;" src = "email-logo.png" alt = "linkedin" width = "25" height = "25">
+            <a href = "mailto:kcrachman@gmail.com">My Email</a>
+        </p>
+    </div>
+    <div> <!-- Proficiencies -->
+        <h3><u> Skills </u></h3>
+        <table>
+            <thead>
+                <tr>
+                    <th> Front-End </th>
+                    <th> Python </th>
+                    <th> JavaScript </th>
+                    <th> Database </th>
+                    <th> Concepts </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> HTML5 </td>
+                    <td></td>
+                    <td></td>
+                    <td> MySQL </td>
+                    <td> OOP </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td> Linear Algebra </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--<div> Projects
+
+    </div>-->
+
+    <div>
+        <h3><u> Education </u></h3>
+        <ul>
+            <li>
+                <strong>California Polytechnic State University, San Luis Obispo</strong>
+                <ul>
+                    <li>
+                        Single Subject Credential, Mathematics
+                        <ul>
+                            <li> June 2022 </li>
+                        </ul>
+                    </li>
+                    <li>
+                        M.S. in Pure Mathematics
+                        <ul>
+                            <li> "With Distinction" </li>
+                            <li> June 2021 </li>
+                        </ul>
+                    </li>
+                    <li>
+                        B.S. in Mathematics
+                        <ul>
+                            <li> Concentration: Teaching </li>
+                            <li> <em>Summa Cum Laude</em> </li>
+                            <li> June 2021 </li>
+                        </ul>
+                    </li>
+                </ul>
+            <br>
+            </li>
+
+            <li>
+                <strong>Los Angeles Harbor College</strong>
+                <ul>
+                    <li>
+                        A.A. in Liberal Arts and Sciences
+                        <ul>
+                            <li> Arts and Humanities Emphasis </li>
+                            <li> June 2017 </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3><u> Contact Me </u></h3>
+        <form>
+            <div>
+                <label> Name: </label>
+                <input type = "text" id = "name">
+
+                <label> Email: </label>
+                <input type = "text" id = "email">
+            </div>
+            
+            <br>
+
+            <div class = "formfield">
+                <label for="message"> Message: &nbsp; </label>
+                <textarea name = "message" id = "message" cols = "50" rows = "5"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <input type = "submit" value = "Send Message">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
