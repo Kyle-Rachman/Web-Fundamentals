@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
+/* This is for everything in the header section */
+
+.header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#bar{
+    flex: 0.65;
+}
+
+.login{
+    color: white;
+    background-color: #4176dd;
+    box-shadow: 2px 3px black;
+    padding: 2px 10px;
+}
+
+/* This is for everything in the main section */
+
+.main{
+    display: flex;
+    gap: 20px;
+    vertical-align: top;
+}
+
+/* This is for everything on the left */
+
+.col-2{
+    flex: 2;
+}
+
+.entry{
+    height: auto;
+    min-height: 150px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.info{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.likes{
+    white-space: nowrap;
+    background-color: gold;
+    box-shadow: 2px 3px black;
+    margin-top: 30px;
+    padding: 5px 22px;
+}
+
+/* This is for everything on the right */
+
+.col{
+    flex: 1;
+}
+
+.you-def{
+    height: auto;
+    min-height: 120px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.you-def > p{
+    font-size: 1.5rem;
+}
+
+.add{
+    width: 100%;
+    background-color: #9dc384;
+    box-shadow: 2px 3px black;
+    margin: 20px 0px 10px;
+    padding: 5px 0px;
+}
