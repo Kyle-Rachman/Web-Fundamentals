@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', serif;
+}
+
+.container{
+    width: auto;
+    background-color: white;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.icon-line{
+    display: flex;
+    align-items: center;
+}
+
+/* This is the styling for the header */
+
+.header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    gap: 20px
+}
+
+.nav-title{
+    color: white;
+    font-weight: 400;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    list-style-type: none;
+    font-weight: 200;
+    font-size: smaller;
+    align-items: center;
+    gap: 20px
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    background-color: #4ba0b5;
+    width: 80px;
+    height: 35px;
+    font-size: medium;
+    box-shadow: 2px 5px black;
+}
+
+/* This is the styling for the main part */
+
+.main{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    gap: 20px;
+}
+
+.main h4{
+    font-weight: 300;
+}
+
+/* This is the styling for the left part of main */
+
+.content{
+    background-color: white;
+    display: inline-block;
+}
+
+/* This is specifically for the user card */
+
+.user-card{
+    width: 375px;
+    height: 300px;
+    border: 2px solid silver;
+    display: block;
+}
+
+.card-header{
+    background-color: #4ba0b5;
+    height: 75px;
+    border-bottom: 1px solid silver;
+}
+
+.profile-pic{
+    height: 75px;
+    width: 75px;
+    border: 2px solid white;
+    border-radius: 50%;
+    outline: 2px solid silver;
+    margin-top: -37.5px;
+    margin-left: 20px;
+}
+
+.info{
+    padding-left: 20px
+}
+
+.icon{
+    height: 20px;
+    margin: 5px;
+}
+
+.user-card .icon-line{
+    margin: 5px 0px;
+}
+
+/* Now let's do education */
+
+.education{
+    width: 375px;
+    height: auto;
+    border: 2px solid silver;
+    display: block;
+    margin-top: 20px;
+}
+
+.edu-header{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid silver;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.edu-info{
+    padding: 10px 20px;
+}
+
+.edu-info h3{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.edu-info h5{
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+/* Now for the right part of main */
+
+.sidebar{
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+}
+
+.sidebar-header{
+    color: white;
+    background-color: black;
+    height: 45px;
+    border-bottom: 2px solid silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Here's everything for requests specifically */
+
+.requests{
+    width: 200px;
+    height: auto;
+    border: 2px solid silver;
+    display: block;
+}
+
+.request{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.accept-reject button{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    border: none;
+}
+
+.accept-reject button > img{
+    height: 10px;
+    width: 10px;
+    vertical-align: middle;
+}
+
+.display-requests-number{
+    color: black;
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 50%;
+    height: 25px;
+    width: auto;
+    min-width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Now for connections specifically */
+
+.connections{
+    width: 200px;
+    height: auto;
+    border: 2px solid silver;
+    display: block;
+    margin-top: 20px;
+}
+
+.view-more{
+    border-top: 2px solid silver;
+    padding: 5px;
+}
+
+.display-connections-number{
+    color: black;
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 50%;
+    height: 25px;
+    width: auto;
+    min-width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
