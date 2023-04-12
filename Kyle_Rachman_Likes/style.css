@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0px 100px;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+/* Here's the header and feed title */
+
+.header{
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    min-width: 360px;
+}
+
+.feed-title{
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Here's the profile */
+.profile{
+    height: 150px;
+    flex: 1;
+    min-width: 100px;
+    background-color: white;
+    border: 3px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile > img{
+    height: 60px;
+    width: 60px;
+}
+
+.profile > a{
+    font-size: 0.75rem;
+}
+
+/* Here's the posts */
+
+.posts{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    height: 100px;
+    min-width: 200px;
+    background-color: white;
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.username{
+    font-size: 1.2rem;
+}
+
+.like-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like{
+    margin-left: 30px;
+    background-color: gold;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+}
+
+.post-text{
+    margin-top: 20px;
+}
