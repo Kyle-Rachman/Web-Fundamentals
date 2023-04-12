@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for the top header */
+.header{
+    color: white;
+    background-color: #a7c4f4;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 50px;
+}
+
+.cities{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+
+/* Styling for the main part of the page */
+
+.main{
+    background-color: white;
+    padding: 0px 100px;
+}
+
+/* Styling for the secondary header */
+
+.subheader{
+    height: 75px;
+    width: auto;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the weather display */
+
+.content{
+    height: 225px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.forecast{
+    background-color: rgb(227, 227, 227);
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forecast img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.forecast p{
+    font-size: 0.8rem;
+}
+
+.temprange{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: blue;
+}
+
+/* Styling for the cookies popup */
+
+.cookies{
+    position: fixed;
+    bottom: 5px;
+    right: 50%;
+    transform: translate(50%,0%);
+    background-color: rgb(227, 227, 227);
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.cookies img{
+    margin: 10px;
+}
+
+#accept{
+    background-color: #a7c4f4;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px;
+    margin: 20px;
+    min-width: 75px;
+}
