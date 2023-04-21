@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col {
+    /* Set universal styling irrespective of screen size */
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 480px){
+    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+
+    .sm-4 {
+        width: 100%;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    /* we will set these stylings only if the device is a screen with a width between 481 and 1024px */
+
+    .med-2 {
+        width: 50%;
+        background-color: blue;
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    /* we will set these stylings only if the device is a screen with a width of 1024px or more */
+
+    .lg-1 {
+        width: 25%;
+        background-color: red;
+    }
+}
